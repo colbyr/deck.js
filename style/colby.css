@@ -33,11 +33,13 @@ author: @colbyrabideau
 .deck-container .slide h1 {
     color: #FA4B00;
     font-family: 'Patua One', Georgia, serif;
+    font-weight: normal;
 }
 .deck-container .slide h2 {
-    font-family: 'Patua One', Georgia, serif;
-    color: #FA4B00;
     border-bottom: solid 1px #FA4B00;
+    color: #FA4B00;
+    font-family: 'Patua One', Georgia, serif;
+    font-weight: normal;
 }
 .deck-container .slide h3 {
     /*font-family: 'Patua One', Georgia, serif;*/

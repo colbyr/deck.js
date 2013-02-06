@@ -34,9 +34,9 @@
 <body class="deck-container">
 
 <!-- for fools -->
-<section class="slide">
+<section class="slide" id="start">
 
-    <div class="vcenter">
+    <div class="vcenter" id="start">
         <h1 class="dark">></h1>
         <h3>... use the arrows ...</h3>
     </div>
@@ -44,14 +44,14 @@
 </section>
 
 <!-- this is a presentation -->
-<section class="slide">
+<section class="slide" id="title">
 
   <h1>A Presentation</h1>
 
 </section>
 
 <!-- make bullets -->
-<section class="slide">
+<section class="slide" id="bullets">
 
   <h2>Big Bullet Points</h2>
 
@@ -64,7 +64,7 @@
 </section>
 
 <!-- use pictures -->
-<section class="slide">
+<section class="slide" id="picture">
 
   <h2>A Picture</h2>
 
@@ -73,7 +73,7 @@
 </section>
 
 <!-- a block quote -->
-<section class="slide">
+<section class="slide" id="block-quote">
 
   <h2>A quote!</h2>
 
@@ -84,7 +84,7 @@
 </section>
 
 <!-- code -->
-<section class="slide">
+<section class="slide" id="code">
 
   <h2>Some code...</h2>
   <h3>Why do I like javascript?</h3>
@@ -98,7 +98,7 @@ var javascript_is_the_coolest = (function () {
 </section>
 
 <!-- paragraphs -->
-<section class="slide">
+<section class="slide" id="text">
 
   <h2>Text</h2>
 
@@ -109,7 +109,7 @@ var javascript_is_the_coolest = (function () {
 </section>
 
 <!-- links -->
-<section class="slide">
+<section class="slide" id="links">
 
   <h2>Links</h2>
 
@@ -118,7 +118,7 @@ var javascript_is_the_coolest = (function () {
 </section>
 
 <!-- vcenter -->
-<section class="slide">
+<section class="slide" id="vcenter">
 
   <div class="vcenter">
     <h2>Vertically Centered</h2>
@@ -129,7 +129,7 @@ var javascript_is_the_coolest = (function () {
 </section>
 
 <!-- the end -->
-<section class="slide">
+<section class="slide" id="the-end">
 
   <div class="vcenter">
     <h3>the end</h3>
@@ -142,6 +142,7 @@ var javascript_is_the_coolest = (function () {
 <script src="core/deck.core.js"></script>
 
 <!-- Add any other extension JS files here -->
+<script src="extensions/hash/deck.hash.js"></script>
 
 
 <!-- Initialize the deck. You can put this in an external file if desired. -->

@@ -8,7 +8,7 @@ author: @colbyrabideau
     border: 0;
 }
 .deck-container .slide .accent {
-    color: #FA4B00;
+    color: rgb(250, 75, 0);
 }
 .deck-container .slide .dark {
     color: #333;
@@ -31,13 +31,13 @@ author: @colbyrabideau
     border: none;
 }
 .deck-container .slide h1 {
-    color: #FA4B00;
+    color: rgb(250, 75, 0);
     font-family: 'Patua One', Georgia, serif;
     font-weight: normal;
 }
 .deck-container .slide h2 {
-    border-bottom: solid 1px #FA4B00;
-    color: #FA4B00;
+    border-bottom: solid 1px rgb(250, 75, 0);
+    color: rgb(250, 75, 0);
     font-family: 'Patua One', Georgia, serif;
     font-weight: normal;
 }
@@ -66,8 +66,9 @@ author: @colbyrabideau
     font-size: 2em;
     font-family: Georgia, serif;
     font-style: italic;
-    padding: 1em 1.5em;
-    border-left: 5px solid #FA4B00;
+    padding: .1em .75em;
+    border-left: 30px solid rgb(250, 75, 0);
+    border-left: 30px solid rgba(250, 75, 0, 0.5);
 }
 .deck-container .slide .vcenter blockquote {
     text-align: left;

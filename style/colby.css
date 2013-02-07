@@ -49,13 +49,9 @@ author: @colbyrabideau
     font-size: 2em;
 }
 .deck-container .slide pre {
-    border-color: #ccc;
-    border-radius: 10px;
-    background-color: #eee;
+  padding: 1em;
 }
 .deck-container .slide code {
-    color: #000;
-    background-color: #eee;
     padding: .2em .5em .3em;
 }
 .deck-container .slide pre code {

@@ -23,6 +23,8 @@
   <!-- Replace path with correct path to deck.core.css. -->
   <link rel="stylesheet" href="core/deck.core.css" type="text/css">
   <link rel="stylesheet" href="transition/horizontal-slide.css" type="text/css">
+  <link rel="stylesheet" href="style/prettify.css" type="text/css">
+  <link rel="stylesheet" href="style/desert.css" type="text/css">
   <link rel="stylesheet" href="style/colby.css" type="text/css">
 
   <!-- Any other extension CSS files go here. -->
@@ -88,12 +90,12 @@
 
   <h2>Some code...</h2>
   <h3>Why do I like javascript?</h3>
-<pre><code>// well duh...
+<pre class="prettyprint"><code>// well duh...
 var javascript_is_the_coolest = (function () {
   return true; 
 }());</code></pre>
-  
-  <p>This is code in a paragraph: <code>var hello = "world";</code></p>
+
+  <p>This is code in a paragraph: <code class="prettyprint">var hello = "world";</code></p>
 
 </section>
 
@@ -138,6 +140,7 @@ var javascript_is_the_coolest = (function () {
 </section>
 
 <!-- Update these paths to point to the correct files. -->
+<script src="prettify/prettify.js"></script>
 <script src="jquery-1.7.min.js"></script>
 <script src="core/deck.core.js"></script>
 
@@ -147,6 +150,7 @@ var javascript_is_the_coolest = (function () {
 
 <!-- Initialize the deck. You can put this in an external file if desired. -->
 <script>
+  prettyPrint();
   $(function() {
     $.deck('.slide');
   });
